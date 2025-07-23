@@ -12,8 +12,11 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
-    domains: ['placeholder.svg'],
   },
+  // Optimize for production
+  swcMinify: true,
+  compress: true,
+  poweredByHeader: false,
 }
 
 export default nextConfig
