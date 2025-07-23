@@ -12,8 +12,8 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    domains: ['placeholder.svg'],
   },
 }
 
 export default nextConfig
-</merged_code>
